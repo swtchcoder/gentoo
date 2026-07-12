@@ -1,0 +1,13 @@
+diff --git a/clients/status_bar.c b/clients/status_bar.c
+index 3006e91..7bc10f0 100644
+--- a/clients/status_bar.c
++++ b/clients/status_bar.c
+@@ -163,7 +163,7 @@ static const struct item_interface divider_interface = {
+ 
+ /* Configuration parameters */
+ static const int spacing = 12;
+-static const char *const font_name = "Terminus:pixelsize=14";
++static const char *const font_name = "Iosevka:size=16";
+ static const struct style normal = { .bg = 0xff1a1a1a, .fg = 0xff999999 };
+ static const struct style selected = { .bg = 0xff338833, .fg = 0xffffffff };
+ 

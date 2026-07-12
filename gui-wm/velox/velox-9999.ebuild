@@ -20,3 +20,7 @@ IUSE=""
 DEPEND="dev-libs/swc"
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
+
+PATCHES=(
+	"${FILESDIR}/font.patch"
+)
