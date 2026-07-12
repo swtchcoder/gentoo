@@ -7,7 +7,7 @@ EAPI=8
 inherit git-r3
 
 EGIT_REPO_URI="https://github.com/michaelforney/velox.git"
-EGIT_OVERRIDE_COMMIT_MICHAELFORNEY_WLD="40b3f9c"
+EGIT_OVERRIDE_COMMIT_MICHAELFORNEY_VELOX="40b3f9c"
 
 DESCRIPTION="velox window manager"
 HOMEPAGE="https://github.com/michaelforney/velox"
