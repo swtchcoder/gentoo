@@ -19,4 +19,4 @@ IUSE=""
 
 DEPEND="x11-libs/libdrm x11-libs/pixman media-libs/fontconfig"
 RDEPEND="${DEPEND}"
-BDEPEND="gui-libs/wayland virtual/pkgconfig"
+BDEPEND="dev-libs/wayland virtual/pkgconfig"

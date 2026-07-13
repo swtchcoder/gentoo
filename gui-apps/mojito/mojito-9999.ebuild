@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="gui-libs/wayland gui-libs/neuswc gui-libs/neuwld"
+DEPEND="dev-libs/wayland gui-libs/neuswc gui-libs/neuwld"
 RDEPEND="${DEPEND} !gui-libs/swc !gui-libs/wld"
 BDEPEND="virtual/pkgconfig"
 

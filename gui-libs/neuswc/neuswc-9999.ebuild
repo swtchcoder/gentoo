@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="gui-libs/neuwld gui-libs/libinput x11-libs/libxkbcommon x11-libs/libxkbcommon dev-utils/wld gui-libs/wayland-protocols x11-libs/libdrm x11-libs/pixman media-libs/fontconfig gui-libs/wayland"
+DEPEND="gui-libs/neuwld gui-libs/libinput x11-libs/libxkbcommon x11-libs/libxkbcommon dev-utils/wld dev-libs/wayland-protocols x11-libs/libdrm x11-libs/pixman media-libs/fontconfig dev-libs/wayland"
 RDEPEND="${DEPEND} !gui-libs/wld !gui-libs/swc"
 BDEPEND="virtual/pkgconfig"
 
