@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="x11-libs/libxkbcommon gui-libs/neuwld gui-libs/neuswc"
-RDEPEND="${DEPEND} !gui-libs/wld !gui-libs/swc"
+DEPEND="x11-libs/libxkbcommon gui-libs/neuwld dev-libs/neuipc gui-libs/neuswc"
+RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
 src_configure() {
