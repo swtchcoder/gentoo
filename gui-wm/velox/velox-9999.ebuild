@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="dev-libs/swc"
+DEPEND="gui-libs/swc"
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 

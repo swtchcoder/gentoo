@@ -16,9 +16,9 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="dev-libs/libinput x11-libs/libxkbcommon x11-libs/libxkbcommon dev-utils/wld dev-libs/wayland-protocols x11-libs/libdrm x11-libs/pixman media-libs/fontconfig"
+DEPEND="gui-libs/libinput x11-libs/libxkbcommon x11-libs/libxkbcommon dev-utils/wld gui-libs/wayland-protocols x11-libs/libdrm x11-libs/pixman media-libs/fontconfig"
 RDEPEND="${DEPEND}"
-BDEPEND="dev-libs/wayland virtual/pkgconfig"
+BDEPEND="gui-libs/wayland virtual/pkgconfig"
 
 src_compile() {
 	emake CC="$(tc-getCC)" PREFIX=/usr LIBDIR="/usr/$(get_libdir)"

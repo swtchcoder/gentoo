@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="x11-libs/libdrm x11-libs/pixman media-libs/fontconfig dev-libs/wayland"
-RDEPEND="${DEPEND} !dev-libs/wld"
+DEPEND="x11-libs/libdrm x11-libs/pixman media-libs/fontconfig gui-libs/wayland"
+RDEPEND="${DEPEND} !gui-libs/wld"
 BDEPEND="virtual/pkgconfig"
 
 src_configure() {

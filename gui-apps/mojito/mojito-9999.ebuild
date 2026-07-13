@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="dev-libs/wayland dev-libs/neuswc dev-libs/neuwld"
-RDEPEND="${DEPEND} !dev-libs/swc !dev-libs/wld"
+DEPEND="gui-libs/wayland gui-libs/neuswc gui-libs/neuwld"
+RDEPEND="${DEPEND} !gui-libs/swc !gui-libs/wld"
 BDEPEND="virtual/pkgconfig"
 
 src_prepare() {

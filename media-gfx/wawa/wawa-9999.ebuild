@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND="dev-libs/neuswc"
+DEPEND="gui-libs/neuswc"
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
